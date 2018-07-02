@@ -1,0 +1,148 @@
+html,body{
+    min-height:100%
+}
+body{
+    background-color:#ECF0F1;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-size:20px;
+    margin: 0;
+    line-height:24px;
+
+    
+}
+
+.navbar{
+    text-align: center;
+    width:100%;
+    background:#2C2F38;
+    position:fixed;
+    top:0;
+    z-index: 1;
+    margin-bottom:60px;
+
+}
+
+.navbar ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position:relative;
+}
+
+.navbar ul li a{
+    display:block;
+    padding: 25px;
+    color:white;
+    text-decoration:none;
+    width:150px;
+}
+
+.navbar li.right{
+     float:right;
+}
+
+
+.navbar ul:after {
+    content:""; clear:both;
+    display:block;
+    
+}
+
+.navbar ul li {
+    float:left;
+    list-style:none;
+}
+
+.navbar ul ul {
+    display:none;
+}
+
+.navbar ul  li:hover > ul{
+    display:block;
+        z-index: 2;
+}
+
+.navbar ul li:hover {
+    background:black;
+    transition: 0.9s;
+   
+}
+
+.navbar ul li:hover > a{
+    color:#85B3D5;
+    
+}
+
+.navbar ul ul{
+    background: black;
+    opacity:0
+    padding:0;
+    margin:0;
+    position: absolute; top: 100%;
+}
+
+.navbar ul ul li{
+    float:none;
+    position:relative;
+}
+
+.navbar ul ul li a{
+    padding:15px;
+    color:white;
+    width:250px;
+    text-align:left;
+    z-index:auto;
+}
+
+.navbar ul ul li a:hover{
+    background:#85B3D5;
+    color:black;
+    transition:0.9s;
+}
+
+.container{
+ 
+    background:white;
+    color: black;
+    margin-top:100px;
+   align-content: center;
+    width:80%;
+    height:300px;
+    padding:40px,40px, 40px,40px;
+    opacity:0.6;
+}
+.faculty{
+    float:left;
+    background-color:azure;
+    opacity:0.6;
+    align-content: center;
+    margin-top: 100px;
+    margin-left: 100px;
+    width:300px;
+    height: 60px;
+    
+}
+.faculty a{
+    text-decoration: none;
+    font-size:30px;
+    align-items: center;
+
+
+}
+.faculty:hover{
+    background:#85B3D5;
+    transition:0.6s;
+}
+
+.format{
+    margin-left: 80px;
+}
+
+
+
+
+
+
