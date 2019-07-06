@@ -6,6 +6,6 @@ type : "php artisan migrate " in the commmand line and press enter
 this will create  the database 
 then type: " php artisan serve" for hosting the website
 
-![Screenshot](https://github.com/myselfronin/myNoteBook/blob/master/notebook1.png)
+![Screenshot](/notebook1.png)
 ![Screenshot](notebook2.png)
 ![Screenshot](notebook3.png)
