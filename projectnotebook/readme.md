@@ -7,3 +7,5 @@ this will create  the database
 then type: " php artisan serve" for hosting the website
 
 ![Screen](https://github.com/myselfronin/myNoteBook/blob/master/notebook1.png)
+
+![Screen2](https://github.com/myselfronin/myNoteBook/blob/master/notebook2.png)
